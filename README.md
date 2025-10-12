@@ -1,2 +1,3 @@
 # tsc-rss
-Trying to use RSS feed for TSC, do not make public for now
+
+RSS feed for the Scratch Channel. Go to https://tsc-rss.onrender.com/rss and it will download you an up to date feed
