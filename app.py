@@ -37,8 +37,8 @@ def fetch_articles():
 def generate_rss_xml(articles):
     rss = Element("rss", version="2.0")
     channel = SubElement(rss, "channel")
-    SubElement(channel, "title").text = "My Firestore RSS Feed"
-    SubElement(channel, "link").text = "https://example.com"
+    SubElement(channel, "title").text = "The Scratch Channel RSS Feed"
+    SubElement(channel, "link").text = "https://thescratchchannel.vercel.app/"
     SubElement(channel, "description").text = "Latest articles"
     SubElement(channel, "lastBuildDate").text = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S GMT")
 
