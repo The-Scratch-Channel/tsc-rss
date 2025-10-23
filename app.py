@@ -54,7 +54,7 @@ def generate_rss_xml(articles):
         )
     return tostring(rss, encoding='utf-8')
 
-@app.route("/rss")
+@app.route("/")
 def rss_feed():
     articles = fetch_articles()
     rss_xml = generate_rss_xml(articles)
