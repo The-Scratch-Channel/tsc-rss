@@ -1,0 +1,17 @@
+# web framework
+Flask  
+# firestore
+google-cloud-firestore  
+#.env for python
+python-dotenv  
+# what does os do again?
+os 
+# loads... well html
+html  
+# self expanitory
+datetime
+# temporary file
+tempfile  
+# needed for xml rss tree
+xml.etree.ElementTree
+# install these with pip -r requirements.txt (i think)
